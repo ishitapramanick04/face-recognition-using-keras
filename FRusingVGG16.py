@@ -38,6 +38,7 @@ from keras.layers.convolutional import Conv2D
 from keras.layers.convolutional import MaxPooling2D
 import tensorflow as tf
 
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 def faces(img):
